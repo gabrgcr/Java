@@ -1,4 +1,4 @@
-package exGeneration.Repeticao_02;
+package exGeneration.e02_Repeticao;
 import java.util.Scanner;
 /*Solicitar a idade de várias pessoas e imprimir: Total de pessoas com menos de
 21 anos. Total de pessoas com mais de 50 anos. O programa termina quando

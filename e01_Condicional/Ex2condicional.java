@@ -1,4 +1,4 @@
-package exGeneration.Condicional_01;
+package exGeneration.e01_Condicional;
 import java.util.Scanner;
 /*Faça um programa que entre com três números e coloque em ordem crescente.*/
 public class Ex2condicional {

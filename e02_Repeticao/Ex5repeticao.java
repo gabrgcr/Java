@@ -1,4 +1,4 @@
-package exGeneration.Repeticao_02;
+package exGeneration.e02_Repeticao;
 import java.util.Scanner;
 /*Crie um programa que leia um número do teclado até que encontre um
 número igual a zero. No final, mostre a soma dos números

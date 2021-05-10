@@ -1,4 +1,4 @@
-package exGeneration.Condicional_01;
+package exGeneration.e01_Condicional;
 import java.util.Scanner;
 /*Faça um programa que receba a idade de uma pessoa e mostre na saída em qual
 categoria ela se encontra:

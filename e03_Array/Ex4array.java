@@ -1,5 +1,4 @@
-package exGeneration.Array_03;
-
+package exGeneration.e03_Array;
 import java.util.Scanner;
 
 /*Faça um programa que leia duas matrizes 2 x 2 com valores reais. Ofereça ao usuário um

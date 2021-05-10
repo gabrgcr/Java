@@ -1,4 +1,4 @@
-package exGeneration.Repeticao_02;
+package exGeneration.e02_Repeticao;
 import java.util.Scanner;
 /*Escrever um programa que receba vários números inteiros no teclado. E no
 final imprimir a média dos números múltiplos de 3. Para sair digitar

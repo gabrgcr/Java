@@ -1,4 +1,4 @@
-package exGeneration.Array_03;
+package exGeneration.e03_Array;
 /*Faça um programa que receba 6 números inteiros e mostre:
 • Os números pares digitados;
 • A soma dos números pares digitados;

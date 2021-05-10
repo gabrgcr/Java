@@ -1,4 +1,4 @@
-package exGeneration.Condicional_01;
+package exGeneration.e01_Condicional;
 import java.util.*;
 /*Faça um programa que receba três inteiros e diga qual deles é o maior.*/
 
