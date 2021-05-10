@@ -48,67 +48,77 @@ public class Ex4array {
 			sub[i][j]=b[i][j]-a[i][j];
 		}
 	}
-	System.out.printf("\nInsira uma opção: \n");
+	do
+	{
+	System.out.printf("\n\nInsira uma opção: \n");
 	System.out.printf("(1) somar as duas matrizes\r\n"
 			+ "(2) subtrair a primeira matriz da segunda\r\n"
 			+ "(3) adicionar uma constante as duas matrizes\r\n"
-			+ "(4) imprimir as matrizes\n");
+			+ "(4) imprimir as matrizes\r\n"
+			+ "(0) Sair\r\n");
 	opt=in.nextInt();
-	switch(opt) {
-		case 1:
-		{
-			for(int i=0;i<2;i++)
+		switch(opt) {
+			case 1:
 			{
-				for(int j=0;j<2;j++)
+				for(int i=0;i<2;i++)
 				{
-					System.out.printf("\nSoma das Matrizes["+i+"]["+j+"]: "+soma[i][j]);
+					for(int j=0;j<2;j++)
+					{
+						System.out.printf("\nSoma das Matrizes["+i+"]["+j+"]: "+soma[i][j]);
+					}
 				}
 			}
-		}
-		break;
-		case 2:
-		{
-			for(int i=0;i<2;i++)
+			break;
+			case 2:
 			{
-				for(int j=0;j<2;j++)
+				for(int i=0;i<2;i++)
 				{
-					System.out.printf("\nSoma das Matrizes["+i+"]["+j+"]: "+sub[i][j]);
+					for(int j=0;j<2;j++)
+					{
+						System.out.printf("\nSoma das Matrizes["+i+"]["+j+"]: "+sub[i][j]);
+					}
 				}
 			}
-		}
-		break;
-		case 3:
-		{
-			System.out.printf("\nInsira uma constante: ");
-			cons = in.nextInt();
-			for(int i=0;i<2;i++)
+			break;
+			case 3:
 			{
-				for(int j=0;j<2;j++)
+				System.out.printf("\nInsira uma constante: ");
+				cons = in.nextInt();
+				for(int i=0;i<2;i++)
 				{
-					a[i][j]=a[i][j]+cons;
-					b[i][j]=b[i][j]+cons;
-					System.out.printf("\nA["+i+"]["+j+"]: "+a[i][j]);
-					System.out.printf("\nB["+i+"]["+j+"]: "+b[i][j]);
+					for(int j=0;j<2;j++)
+					{
+						a[i][j]=a[i][j]+cons;
+						b[i][j]=b[i][j]+cons;
+						System.out.printf("\nA["+i+"]["+j+"]: "+a[i][j]);
+						System.out.printf("\nB["+i+"]["+j+"]: "+b[i][j]);
+					}
 				}
 			}
-		}
-		break;
-		case 4:
-		{
-			for(int i=0;i<2;i++)
+			break;
+			case 4:
 			{
-				for(int j=0;j<2;j++)
+				for(int i=0;i<2;i++)
 				{
-					System.out.printf("\nA["+i+"]["+j+"]: "+a[i][j]);
-					System.out.printf("\nB["+i+"]["+j+"]: "+b[i][j]);
+					for(int j=0;j<2;j++)
+					{
+						System.out.printf("\nA["+i+"]["+j+"]: "+a[i][j]);
+					}
+				}
+				System.out.printf("\n\n");
+				for(int i=0;i<2;i++)
+				{
+					for(int j=0;j<2;j++)
+					{
+						System.out.printf("\nB["+i+"]["+j+"]: "+b[i][j]);
+					}
 				}
 			}
-		}
-		break;
-		default:
-			System.out.printf("\nOpção Inválida!");
-		break;
+			break;
+		
 	}
+	}
+	while(opt>0 && opt<5);
 	in.close();
 	}
 
