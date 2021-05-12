@@ -7,6 +7,16 @@ public class Cachorro extends Animal{
     }
     public void exibeDog()
     {
-        System.out.print("Doguinho chamado "+getNome()+" tem origem em "+getOrigem()+".\nTem "+getIdade()+" anos.");
+        System.out.print("\nDoguinho chamado "+getNome()+" tem origem em "+getOrigem()+".\nTem "+getIdade()+" anos.");
+    }
+
+    @Override
+    public void fazSom(){
+        System.out.print("\nEsse animal late!");
+    }
+
+    @Override
+    public void movimento() {
+        System.out.print("\nEsse animal corre!");
     }
 }

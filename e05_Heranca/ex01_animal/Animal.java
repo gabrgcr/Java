@@ -1,10 +1,12 @@
 package e05_Heranca.ex01_animal;
 
-public class Animal {
+abstract class Animal {
 	private String nome;
 	private String origem;
 	private int idade;
 	private boolean bipede;
+	abstract public void fazSom();
+	abstract public void movimento();
 
 	public Animal(String nome, String origem, int idade, boolean bipede) {
 		super();
@@ -45,4 +47,5 @@ public class Animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+
 }
